@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7513418801036983402
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7513418801036983400}
+  - component: {fileID: 7513418801036983401}
+  m_Layer: 0
+  m_Name: Controllers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7513418801036983400
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7513418801036983402}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.034676, y: 1.702435, z: 2.0967312}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7513418801036983401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7513418801036983402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77c6e487ca7b4574da525b551aea1ff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftSecondaryAction:
+    m_Name: Left Secondary
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: d52ce4ee-bf28-4b5f-918d-3eaedb49671c
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 5bda6b99-9ac1-4417-bc6c-f52608c2b7c4
+      m_Path: <OculusTouchController>{LeftHand}/secondaryButton
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left Secondary
+      m_Flags: 0
+  leftGripAction:
+    m_Name: Left Grip
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 4e32a095-20fa-4ff4-9287-337a09d1d0ba
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 16875823-3a7c-48c4-86fc-91dddb637931
+      m_Path: <OculusTouchController>{LeftHand}/gripPressed
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left Grip
+      m_Flags: 0
+  rightGripAction:
+    m_Name: Right Grip
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 118e8c91-729f-47fa-a227-0233fb90afc3
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: f7a2e91c-561e-49ff-af54-4f42d6df0e54
+      m_Path: <OculusTouchController>{RightHand}/gripPressed
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Right Grip
+      m_Flags: 0
+    - m_Name: 
+      m_Id: aad134b7-77c1-498f-8eed-1b78f9bf8a79
+      m_Path: <Keyboard>/space
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Right Grip
+      m_Flags: 0
+  rightTriggerAction:
+    m_Name: Right Trigger
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 521a9461-c7cd-45f9-bce0-6e4fcc5527a5
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+  rightMainButtonAction:
+    m_Name: Right Main Button
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 48423c45-b729-4c16-a0cb-2d63ea675b65
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+  rightSecondaryButtonAction:
+    m_Name: Right Secondary Button
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: e903f5e3-29e7-417a-9dc7-1ceea6d169be
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 906fadcb-3ca6-4297-b5ef-f2a9800126f3
+      m_Path: <OculusTouchController>{RightHand}/secondaryButton
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Right Secondary Button
+      m_Flags: 0
+    - m_Name: 
+      m_Id: a0fd91f6-78d7-4b67-bee5-2b2c061651f4
+      m_Path: <Keyboard>/enter
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Right Secondary Button
+      m_Flags: 0
+  leftEyeAction:
+    m_Name: Left Eye
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: f1aea329-8b18-4813-bcdf-4f321ab66ad2
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 87a511eb-a3b3-4ebf-84c5-f56812e3b295
+      m_Path: <XRInputV1::OpenXR::HeadTrackingOpenXR>/lefteyeposition
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left Eye
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 4028f547-1889-4fef-b64b-24ccd6d45fbe
+      m_Path: <OpenXRHmd>/leftEyePosition
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Left Eye
+      m_Flags: 0
+  rightEyeAction:
+    m_Name: Right Eye
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 13ae0abe-1f97-4f8d-9b8f-2f272bc96936
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 39ce0a57-9596-492b-b3bf-18e256be0b05
+      m_Path: <XRInputV1::OpenXR::HeadTrackingOpenXR>/righteyeposition
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Right Eye
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 6a47f8a9-b3e9-4c92-ad12-669982909690
+      m_Path: <OpenXRHmd>/rightEyePosition
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Right Eye
+      m_Flags: 0
+  leftSecondaryButtonPressed: 0
+  leftGripPressed: 0
+  rightMainButtonPressed: 0
+  rightSecondaryButtonPressed: 0
+  rightGripPressed: 0
+  leftSecondaryButtonLifted: 0
+  rightSecondaryButtonLifted: 0

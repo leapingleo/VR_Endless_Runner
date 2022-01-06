@@ -1,0 +1,101 @@
+[
+	{
+		"wavecount": 1,
+		"totalEnemies": 6,
+		"totalEnemiesAtOnce": 4,
+		"attackSettlements": [ "Settlement" ],
+		"activeSpwanPoints": [ "Torus (5)", "Torus (7)" ],
+		"speedRange": [ 0.25, 0.5 ],
+		"probFireICeThunder": [ 0.0, 0.0, 0.0 ]
+	},
+
+	{
+		"wavecount": 2,
+		"totalEnemies": 10,
+		"totalEnemiesAtOnce": 5,
+		"attackSettlements": [ "Settlement", "Settlement (3)" ],
+		"activeSpwanPoints": [ "Torus (5)", "Torus (7)" ],
+		"speedRange": [ 0.5, 0.75 ],
+		"probFireICeThunder": [ 0.0, 0.0, 0.0 ]
+	},
+
+	{
+		"wavecount": 3,
+		"totalEnemies": 15,
+		"totalEnemiesAtOnce": 10,
+		"attackSettlements": [ "Settlement", "Settlement (3)" ],
+		"activeSpwanPoints": [ "Torus (5)", "Torus (7)", "Torus (6)", "Torus (10)" ],
+		"speedRange": [ 0.5, 0.75 ],
+		"probFireICeThunder": [ 0.25, 0.25, 0.25 ]
+	},
+
+	{
+		"wavecount": 4,
+		"totalEnemies": 15,
+		"totalEnemiesAtOnce": 5,
+		"attackSettlements": [ "Settlement (4)" ],
+		"activeSpwanPoints": [ "Torus (10)", "Torus (7)", "Torus (11)", "Torus (4)" ],
+		"speedRange": [ 0.5, 0.75 ],
+		"probFireICeThunder": [ 0.85, 0.0, 0.85 ]
+	},
+
+	{
+		"wavecount": 5,
+		"totalEnemies": 20,
+		"totalEnemiesAtOnce": 10,
+		"attackSettlements": [ "Settlement (1)", "Settlement (2)" ],
+		"activeSpwanPoints": [ "Torus (6)", "Torus (5)", "Torus (7)", "Torus (10)", "Torus (8)" ],
+		"speedRange": [ 0.5, 0.75 ],
+		"probFireICeThunder": [ 0.45, 0.45, 0.45 ]
+	},
+
+	{
+		"wavecount": 6,
+		"totalEnemies": 30,
+		"totalEnemiesAtOnce": 15,
+		"attackSettlements": [ "Settlement", "Settlement (1)", "Settlement (3)" ],
+		"activeSpwanPoints": [ "Torus (6)", "Torus (5)", "Torus (7)", "Torus (10)", "Torus (8)", "Torus (4)", "Torus (11)", "Torus (9)" ],
+		"speedRange": [ 0.5, 0.75 ],
+		"probFireICeThunder": [ 0.25, 0.95, 0.85 ]
+	},
+
+	{
+		"wavecount": 7,
+		"totalEnemies": 30,
+		"totalEnemiesAtOnce": 15,
+		"attackSettlements": [ "Settlement", "Settlement (2)", "Settlement (3)" ],
+		"activeSpwanPoints": [ "Torus (6)", "Torus (5)", "Torus (7)", "Torus (10)", "Torus (8)", "Torus (4)", "Torus (11)", "Torus (9)" ],
+		"speedRange": [ 0.5, 0.75 ],
+		"probFireICeThunder": [ 0.65, 0.25, 0.85 ]
+	},
+
+	{
+		"wavecount": 8,
+		"totalEnemies": 40,
+		"totalEnemiesAtOnce": 20,
+		"attackSettlements": [ "Settlement", "Settlement (2)", "Settlement (3)", "Settlement (1)" ],
+		"activeSpwanPoints": [ "Torus (6)", "Torus (5)", "Torus (7)", "Torus (10)", "Torus (8)", "Torus (4)", "Torus (11)", "Torus (9)" ],
+		"speedRange": [ 0.5, 0.75 ],
+		"probFireICeThunder": [ 0.25, 0.25, 0.85 ]
+	},
+
+	{
+		"wavecount": 9,
+		"totalEnemies": 50,
+		"totalEnemiesAtOnce": 20,
+		"attackSettlements": [ "Settlement", "Settlement (2)", "Settlement (3)", "Settlement (1)", "Settlement (4)" ],
+		"activeSpwanPoints": [ "Torus (6)", "Torus (5)", "Torus (7)", "Torus (10)", "Torus (8)", "Torus (4)", "Torus (11)", "Torus (9)" ],
+		"speedRange": [ 0.5, 0.75 ],
+		"probFireICeThunder": [ 0.35, 0.85, 0.85 ]
+	},
+
+	{
+		"wavecount": 10,
+		"totalEnemies": 60,
+		"totalEnemiesAtOnce": 25,
+		"attackSettlements": [ "Settlement", "Settlement (2)", "Settlement (3)", "Settlement (1)", "Settlement (4)" ],
+		"activeSpwanPoints": [ "Torus (6)", "Torus (5)", "Torus (7)", "Torus (10)", "Torus (8)", "Torus (4)", "Torus (11)", "Torus (9)" ],
+		"speedRange": [ 0.5, 0.75 ],
+		"probFireICeThunder": [ 0.55, 0.65, 0.45 ]
+	}
+]

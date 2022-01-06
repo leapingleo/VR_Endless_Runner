@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19d6599187936db4285559beff7292a6, type: 3}
+  m_Name: GameplaySound
+  m_EditorClassIdentifier: 
+  winSFXList:
+  - {fileID: 8300000, guid: 0a40dc083c028495cbe3bbead293454f, type: 3}
+  - {fileID: 8300000, guid: a59f3dc64c1a9d74bb9ac1929238412b, type: 3}
+  loseSFXList:
+  - {fileID: 8300000, guid: 9052aeccf2ce845989743bce0b83c4d6, type: 3}
+  gameplayMusicList:
+  - {fileID: 8300000, guid: 196dbea8f2ebc495ea2e4c2de898b628, type: 3}
+  - {fileID: 8300000, guid: bad3c0bcce37b4422b76fedbbec133bb, type: 3}
+  waveStartSFXList:
+  - {fileID: 8300000, guid: 45c49ba997e2d3f4f9002392ae0d5054, type: 3}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39e84cddd9b0e1541868b018ab056d1b, type: 3}
+  m_Name: VillageSFX
+  m_EditorClassIdentifier: 
+  screamsSFXList:
+  - {fileID: 8300000, guid: 43d7d467d9b48534e846b2285bfbf8a7, type: 3}
+  - {fileID: 8300000, guid: bde9f6ac1a02e534eb6a42645814278e, type: 3}
+  - {fileID: 8300000, guid: 6ea21b50a18c83849911e8f0e600ba15, type: 3}
+  - {fileID: 8300000, guid: c32ac35fa980a944a8871fbf3d826188, type: 3}
+  - {fileID: 8300000, guid: 3b7d34efe5e07b94f9d8e4614837b459, type: 3}
+  - {fileID: 8300000, guid: 09c6d4ef470571947a3fc95724f5e8bb, type: 3}
+  destroyedSFXList:
+  - {fileID: 8300000, guid: be6919a2d92ce3143bc2840d25c6bc58, type: 3}
+  - {fileID: 8300000, guid: d9ba40599b011f943a8413a694d3bcd5, type: 3}
+  - {fileID: 8300000, guid: 6db97947a5fa7de418cae5813b01e8f2, type: 3}
+  hitSFXList:
+  - {fileID: 8300000, guid: 05bb5ff37f57fa840832c449e28bc68e, type: 3}
+  - {fileID: 8300000, guid: b9c829f796e35b0458744465d1991720, type: 3}
+  - {fileID: 8300000, guid: d89d8a6820eff4c408fad75cd7cc2e75, type: 3}
+  - {fileID: 8300000, guid: fa22ee04d651f374db2d1e52e36913d9, type: 3}
+  - {fileID: 8300000, guid: a3de61d311721c2489b891cf642a5910, type: 3}
