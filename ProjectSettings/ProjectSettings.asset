@@ -47,7 +47,7 @@ PlayerSettings:
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
-  m_ActiveColorSpace: 1
+  m_ActiveColorSpace: 0
   m_MTRendering: 1
   mipStripping: 0
   numberOfMipsStripped: 0
@@ -85,7 +85,7 @@ PlayerSettings:
   resizableWindow: 0
   useMacAppStoreValidation: 0
   macAppStoreCategory: public.app-category.games
-  gpuSkinning: 1
+  gpuSkinning: 0
   xboxPIXTextureCapture: 0
   xboxEnableAvatar: 0
   xboxEnableKinect: 0
@@ -185,14 +185,14 @@ PlayerSettings:
   enableFrameTimingStats: 0
   useHDRDisplay: 0
   D3DHDRBitDepth: 0
-  m_ColorGamuts: 0000000003000000
+  m_ColorGamuts: 00000000
   targetPixelDensity: 30
   resolutionScalingMode: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.TheVirtualTeam.SantasHelper
-    Standalone: com.DefaultCompany.TeamPending
+    Android: com.TheVirtualTeam.EndlessRunner
+    Standalone: com.TheVirtualTeam.EndlessRunner
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -307,7 +307,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: b8498b03a6800d543a88f160ef32d1b3, type: 3}
+      m_Icon: {fileID: 2800000, guid: 99b131c90adaf1f4ba2a35980c4f6c25, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -461,7 +461,7 @@ PlayerSettings:
     m_Automatic: 1
   - m_BuildTarget: AndroidPlayer
     m_APIs: 0b000000
-    m_Automatic: 0
+    m_Automatic: 1
   - m_BuildTarget: WebGLSupport
     m_APIs: 0b000000
     m_Automatic: 0
