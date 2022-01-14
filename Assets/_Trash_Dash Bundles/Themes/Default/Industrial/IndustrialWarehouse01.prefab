@@ -234,9 +234,11 @@ GameObject:
   - component: {fileID: 3871205910988417519}
   - component: {fileID: 3873731098277482453}
   - component: {fileID: 3884014780649729391}
+  - component: {fileID: -2703756030692718005}
+  - component: {fileID: 8298852807113509682}
   m_Layer: 0
   m_Name: IndustrialWarehouse01
-  m_TagString: Untagged
+  m_TagString: Industrial
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -307,6 +309,32 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-2703756030692718005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3869983235111496767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67510942a88190a40ad1e5821f0e8bdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  path: {fileID: 3871205903855059675}
+--- !u!65 &8298852807113509682
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3869983235111496767}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 20.624151, y: 1, z: 9.000003}
+  m_Center: {x: -0.0031423569, y: 0.07055816, z: 0.0000014305115}
 --- !u!1 &3869983236138659523
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,7 +16,7 @@ public class StartState : State
 
     public override void Tick()
     {
-          Debug.Log("start state");
+       //   Debug.Log("start state");
        // return base.Start();
         if (ActionController.Instance.rightMainButtonPressed
         || Input.GetKeyDown(KeyCode.P))

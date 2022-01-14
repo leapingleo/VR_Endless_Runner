@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: TheVirtualSelf
-  productName: Santa's Helper
+  productName: Endless Runner
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -170,10 +170,12 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 5053765580576574675, guid: e0f8f356f0ac99d4897ece2622e5a0f2, type: 2}
   - {fileID: -2343234744387124294, guid: 4876b6c83d85cac4dbc15a613aeef953, type: 2}
   - {fileID: 11400000, guid: 27cff20ed2be00b4aadc275da92a5cd0, type: 2}
-  - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1

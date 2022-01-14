@@ -17,6 +17,9 @@ TagManager:
   - Stop
   - Grab
   - Candy
+  - Industrial
+  - Suburb
+  - Urban
   layers:
   - Default
   - TransparentFX
